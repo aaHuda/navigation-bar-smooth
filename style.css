@@ -142,3 +142,9 @@ body {
 .navigation ul li:nth-child(5).active ~ .indikator {
   transform: translateX(calc(70px * 4));
 }
+
+@media screen and (max-width: 450px) {
+  .navigation {
+    margin-bottom: 0;
+  }
+}
